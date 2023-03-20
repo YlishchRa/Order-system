@@ -1,0 +1,14 @@
+﻿  Dish.cpp
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(48,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(93,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(95,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(48,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(93,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ProjectsC++\RestoranSystem\RestoranSystem\ListMeal.h(95,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+main.obj : error LNK2005: "private: static int ListMeal::length" (?length@ListMeal@@0HA) already defined in Dish.obj
+main.obj : error LNK2005: "private: static int ListMeal::maxLength" (?maxLength@ListMeal@@0HA) already defined in Dish.obj
+main.obj : error LNK2005: "private: static struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float> * ListMeal::meals" (?meals@ListMeal@@0PEAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@std@@EA) already defined in Dish.obj
+main.obj : error LNK2005: "private: static struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Products *> * ListMeal::mealToProcuts" (?mealToProcuts@ListMeal@@0PEAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVProducts@@@std@@EA) already defined in Dish.obj
+D:\ProjectsC++\RestoranSystem\x64\Debug\RestoranSystem.exe : fatal error LNK1169: one or more multiply defined symbols found
